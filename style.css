@@ -1,3 +1,5 @@
+/* HEADER */
+
 .container-fluid {
   background-color: #0083c2;
   width: 100%;
@@ -54,7 +56,11 @@
 }
 
 .main-links-size {
-  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 40px 10px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
 }
 
 .input-search-form {
@@ -74,13 +80,17 @@
     opacity: 95%;
 }
 
+.main-catalog {
+  margin: 20px 0;
+}
+
 .main-catalog-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
@@ -95,4 +105,73 @@
   background-color: #ff0000;
   color: #fff;
   border-radius: 50%;
+}
+
+/* MAIN PAGE  */
+
+.page-catalog-info {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding-top: 131px;
+}
+
+.page-catalog-title {
+  color: #004876;
+  max-width: 850px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  border-radius: 2px;
+}
+
+.page-catalog-descr {
+    max-width: 976px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-primary {
+  display:flex;
+  justify-content: center;
+    text-decoration: none;
+    height: 56px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: "Roboto",Helvetica Neue,Arial,sans-serif;
+    text-align: center;
+    border: none;
+    padding: 0 40px;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    margin: 0 5px;
+    border: 0px;
+}
+
+.btn-light {
+    display: flex;
+    justify-content: center;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    height: 56px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: "Roboto",Helvetica Neue,Arial,sans-serif;
+    text-align: center;
+    border: none;
+    padding: 0 40px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 200px;
+    margin: 0 5px;
+    border: 0px;
 }
