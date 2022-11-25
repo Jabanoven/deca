@@ -113,17 +113,18 @@
   display: flex;
   flex-direction: column;
   align-items:center;
-  padding-top: 131px;
+  padding-top: 190px;
 }
 
 .page-catalog-title {
   color: #004876;
-  max-width: 850px;
+  max-width: 750px;
   text-align: center;
   text-transform: uppercase;
   margin: 0;
   font-family: "Roboto", Helvetica Neue,Arial,sans-serif;
-  font-weight: 800;
+  font-size: 32px;
+  font-weight: 900;
   border-radius: 2px;
 }
 
@@ -199,4 +200,14 @@
   font-weight: 600;
   font-size: 14px;
   border: none;
+}
+
+.layout-module .btn-read-ques {
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+.page-catalog-faq {
+  margin-top: 100px;
 }
