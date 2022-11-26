@@ -254,7 +254,13 @@
 
 .page-catalog-faq {
   margin-top: 100px;
-  padding: 0 50px;
+  padding: 0 100px;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 0;
+  padding: 22px 0;
 }
 
 /* MAIN PAGE BLOG */
@@ -547,7 +553,7 @@
 .main-menu-content {
   display: flex;
   justify-content: space-between;
-  flex-basis: 66.15%;
+  flex-basis: 62%;
   margin-bottom: 48px;
 }
 
@@ -592,6 +598,10 @@
   display: block;
   margin-bottom: 8px;
   max-width: 336px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42;
+  color: #242323;
 }
 
 .button-phone {
