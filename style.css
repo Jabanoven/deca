@@ -1,5 +1,4 @@
 /* HEADER */
-
 .container-fluid {
   background-color: #0083c2;
   width: 100%;
@@ -80,6 +79,10 @@
   opacity: 95%;
 }
 
+.main-catalog {
+  margin-top: 15px;
+}
+
 .main-catalog-nav {
   display: flex;
   flex-direction: row;
@@ -98,9 +101,25 @@
 }
 
 .sale-mark-catalog {
-  background-color: #ff0000;
-  color: #fff;
+  position: absolute;
+  left: -14px;
+  top: 2px;
+  display: inline-flex;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  background: #e20c18;
   border-radius: 50%;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+
+.sale {
+  position: relative;
+  display: flex;
 }
 
 /* MAIN PAGE  */
@@ -112,6 +131,11 @@
   padding-top: 190px;
 }
 
+.page-catalog-descr p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+}
 .page-catalog-title {
   color: #004876;
   max-width: 750px;
@@ -122,6 +146,7 @@
   font-size: 32px;
   font-weight: 900;
   border-radius: 2px;
+  font-style: italic;
 }
 
 .page-catalog-descr {
@@ -131,7 +156,7 @@
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  margin: 20px 0;
+  line-height: 28px;
 }
 
 .btn-primary {
@@ -606,6 +631,7 @@
 
 .social-networks {
   margin-bottom: 8px;
+  font-size: 14px;
 }
 
 .social-network-content {
