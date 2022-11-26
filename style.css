@@ -543,3 +543,39 @@
   margin: 0;
   padding: 0;
 }
+
+.phone-number-main {
+  display: block;
+  margin-bottom: 8px;
+  max-width: 336px;
+}
+
+.button-phone {
+  color: #0082c3;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  height: auto;
+  align-items: center;
+  line-height: inherit;
+  text-align: left;
+  border: none;
+  background: transparent;
+}
+
+.whatsApp-link {
+  color: #0082c3;
+  text-decoration: none;
+  position: relative;
+  font-size: inherit;
+}
+
+.phone-number-always {
+  font-size: 12px;
+  font-weight: 400;
+  color: #575d5e;
+}
+
+.footer-callcenter-content {
+  margin-bottom: 32px;
+}
