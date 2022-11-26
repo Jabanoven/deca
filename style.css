@@ -601,3 +601,38 @@
   padding: 5%;
   text-align: center;
 }
+
+.terms-use-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms-use-content {
+  display: flex;
+  margin: 32px 0;
+}
+
+.terms-use-item {
+  margin-left: 32px;
+}
+.terms-use-link {
+  color: #0082c3;
+  text-decoration: none;
+  position: relative;
+  font-size: inherit;
+}
+
+.terms-bank-card {
+  display: flex;
+  align-items: center;
+}
+
+.bank-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.terms-copyright {
+  margin-left: 83px;
+}
