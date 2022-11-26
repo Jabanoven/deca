@@ -394,6 +394,7 @@
 .categories-qty {
   font-size: 52px;
   font-weight: 900;
+  padding: 0;
 }
 
 .categories-text {
@@ -408,7 +409,7 @@
 .categories-title-search {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   margin-top: 34px;
