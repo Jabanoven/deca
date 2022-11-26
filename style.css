@@ -563,7 +563,7 @@
   background: transparent;
 }
 
-.whatsApp-link {
+.whatsapp-link {
   color: #0082c3;
   text-decoration: none;
   position: relative;
@@ -578,4 +578,26 @@
 
 .footer-callcenter-content {
   margin-bottom: 32px;
+}
+
+.social-media-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-networks {
+  margin-bottom: 8px;
+}
+
+.social-network-content {
+  display: flex;
+}
+
+.social-icon-style {
+  width: 64px;
+  height: 60px;
+  border: 1px solid #f0f0f0;
+  display: block;
+  padding: 5%;
+  text-align: center;
 }
