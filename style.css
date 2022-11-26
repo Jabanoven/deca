@@ -255,6 +255,10 @@
   object-fit: cover;
 }
 
+.blog-item-small-mountain {
+  grid-column: 2/3;
+}
+
 .blog-info-mountain img {
   max-width: 314px;
   width: 100%;
