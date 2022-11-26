@@ -332,14 +332,86 @@
   font-size: 14px;
 }
 
-.categories-position {
-  display: flex;
-  flex-direction: row;
-  margin: 0 0 0 100px;
+.sport-categories {
+  margin-bottom: 200px;
 }
 
-.categories-item {
+.category-row {
   display: flex;
-  flex-direction: column;
-  margin: 0 100px 0 0;
+  width: max-content;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.categories-block {
+  display: block;
+  width: 128px !important;
+  height: min-content;
+  overflow: hidden;
+  margin-right: 18px;
+  outline: none;
+  padding: 24px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #242323;
+  text-decoration: none;
+}
+
+.categories-img-size {
+  margin: 0 auto;
+  width: 96px;
+  height: 96px;
+}
+
+.categories-title {
+  margin: 34px 8px 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.42;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.categories-block {
+  display: block;
+  overflow: hidden;
+  outline: none;
+  padding: 24px 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #242323;
+  text-decoration: none;
+}
+
+.block-position {
+  padding-left: 24px;
+  width: 269px !important;
+  cursor: auto;
+}
+
+.categories-qty {
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.categories-text {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.categories-title-search {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 34px;
+  color: #0082c3;
+  text-decoration: none;
 }
