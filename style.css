@@ -221,6 +221,10 @@
   flex-direction: column;
 }
 
+.blog-weght-span {
+  font-weight: 1000;
+}
+
 .page-blog-title {
   font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
   font-size: 28px;
@@ -235,6 +239,7 @@
   grid-template-rows: repeat(2, 226px);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  margin-top: 20px;
 }
 
 .blog-info-img-big img {
@@ -251,6 +256,23 @@
 .blog-img-size {
   max-width: 313px;
   max-height: 226px;
+}
+
+.blog-item-big {
+  position: relative;
+}
+
+.blog-info-title {
+  position: absolute;
+  bottom: -200px;
+  left: 40px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 483px;
 }
 
 .blog-info-gun img {
@@ -287,4 +309,37 @@
 .small-wrapper-position {
   display: flex;
   flex-direction: column;
+  margin: 0 20px 10px;
+}
+
+.small-wrapper-title {
+  position: static;
+  font-size: 18px;
+  line-height: 26px;
+  color: #202224;
+  max-width: 310px;
+  margin-bottom: 15px;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.small-wrapper-read {
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-weight: 600;
+  color: #0082c3;
+  font-size: 14px;
+}
+
+.categories-position {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 100px;
+}
+
+.categories-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px 0 0;
 }
