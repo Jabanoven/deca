@@ -1,20 +1,12 @@
 /* HEADER */
-.container-fluid {
-  background-color: #0083c2;
-  width: 100%;
-  height: 60px;
-  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-
-.container-fluid .col {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .header-catalog {
+  display: flex;
   width: 100%;
+  align-items: center;
+  padding: 0;
+  min-height: 60px;
+  background-color: #fff;
+  position: relative;
 }
 
 .main-geo-logo {
@@ -41,12 +33,38 @@
   margin-left: -4px;
 }
 
+.geo-button {
+  display: flex;
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  font-size: inherit;
+  font-weight: 400;
+  padding: 0;
+}
+
+.geo-icon {
+  margin-right: 12px;
+}
+
+.geo-city {
+  width: 114px;
+  text-align: left;
+}
+
 .main-links-item {
   text-decoration: none;
   list-style-type: none;
 }
 
-.container-fluid a {
+.header-main-root {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-main-root a {
   text-decoration: none;
   color: #fff;
   list-style-type: none;
@@ -60,30 +78,68 @@
   font-size: 12px;
 }
 
-.main-search-form {
-  position: relative;
-  margin: 0 0 0 20px;
+.main-header-container {
+  display: flex;
+  align-items: center;
 }
+
+.main-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-links-list {
+  display: flex;
+}
+
 .search-icon {
+  right: 13px;
   position: absolute;
-  bottom: 25%;
-  right: 2%;
-  opacity: 50%;
+  top: 12px;
+  box-shadow: none;
+  background: transparent;
+  color: #bdbdbd;
+}
+
+.btn-icon {
+  border: none;
+  background-color: transparent;
+}
+.search-form-root {
+  width: 516px;
+  height: 40px;
+  margin: 0 40px;
 }
 
 .main-header-size {
-  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #0082c3;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  min-height: 60px;
 }
 
-.main-links-size {
+.main-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-links-item {
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 40px 10px 0px;
-  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
-  font-size: 12px;
+  margin-right: 45px;
+  position: relative;
+}
+
+.main-search-form {
+  position: relative;
 }
 
 .input-search-form {
+  position: relative;
   font-size: 14px;
   width: 100%;
   padding: 12px 70px 12px 16px;
@@ -116,13 +172,14 @@
 }
 
 .main-catalog-item {
-  text-transform: uppercase;
   margin-right: 40px;
   display: flex;
   align-items: center;
   min-height: inherit;
   position: relative;
   white-space: nowrap;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
@@ -156,6 +213,7 @@
 .sale {
   position: relative;
   display: flex;
+  margin-left: 10px;
 }
 
 /* MAIN PAGE  */
@@ -164,7 +222,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 190px;
+  padding-top: 131px;
 }
 
 .page-catalog-descr p {
@@ -294,8 +352,9 @@
 }
 
 .page-catalog-faq {
-  margin-top: 100px;
-  padding: 0 100px;
+  padding-top: 120px;
+  max-width: 1084px;
+  margin: auto;
 }
 
 .accordion-flush .accordion-item .accordion-button,
@@ -364,6 +423,10 @@
   text-transform: uppercase;
   color: #fff;
   max-width: 483px;
+}
+
+.blog-info-img-big {
+  position: relative;
 }
 
 .blog-info-gun img {
@@ -695,6 +758,8 @@
 .terms-use-content {
   display: flex;
   margin: 32px 0;
+  font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
 }
 
 .terms-use-item {
