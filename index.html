@@ -16,13 +16,15 @@
 
 <body>
   <header class="container-fluid">
-    <div class="container text-center">
+    <div class="container">
       <div class="row main-header-size">
         <div class="col-3">
           <div class="main-header-info">
             <div class="main-logo">
-              <img src="img/1200px-Decathlon_Logo.svg.png" width="100%" height="35px" alt="лого">
-
+              <div class="main-logo-position">
+                <img class="main-logo-size" src="img/1200px-Decathlon_Logo.svg.png" width="131px" height="35px"
+                  alt="лого">
+              </div>
             </div>
             <div class="main-geo">
               <a href="#">
@@ -49,16 +51,19 @@
             </form>
           </div>
         </div>
-        <div class="col-4">
-          <div class="main-links">
-            <div class="main-links-item main-links-size">
-              <a href="#">
+
+        <div class="col-4 main-links">
+          <ul class="main-links-list main-links-size">
+            <li class="main-links-item">
+              <a href="https://www.decathlon.ru/help">
                 <img class="icon-size"
                   src="https://cdn.decathlon.ru/bitrix-backend/local/templates/include/icons/help_logo.svg "
                   alt="Помощь">
                 <span class="header-link-item">Помощь</span>
               </a>
-              <a href="#">
+            </li>
+            <li class="main-links-item">
+              <a href="https://www.decathlon.ru/shops">
                 <svg class="icon-size" width="16" height="14" viewBox="0 0 16 14" fill="none" color="#fff"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -70,7 +75,9 @@
                   fill="currentColor"></path>
                 <span class="header-link-item">Магазины</span>
               </a>
-              <a href=" #">
+            </li>
+            <li class="main-links-item">
+              <a href="https://login.decathlon.net/?client_id=701584a6-d0c1-464c-b2cb-f632f83a740e">
                 <svg class="icon-size" width="16" height="16" viewBox="0 0 14 16" fill="none" color="#fff"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -82,21 +89,29 @@
                 </svg>
                 <span class="header-link-item">Войти</span>
               </a>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="container main-catalog">
-      <Ul class="col-8 main-catalog-nav">
-        <li class="main-catalog-item"><a href="#">Виды спорта</a></li>
-        <li class="main-catalog-item"><a href="#">Мужчинам</a></li>
-        <li class="main-catalog-item"><a href="#">Женщинам</a></li>
-        <li class="main-catalog-item"><a href="#">Детям</a></li>
-        <li class="main-catalog-item"><a href="#">Аксессуары</a></li>
-        <li class="main-catalog-item"><a href="#">Юридическим лицам</a></li>
-        <li class="main-catalog-item sale"><span class="sale-mark-catalog">%</span><a href="#">Распродажа</a></li>
-      </Ul>
+    <div class="header-catalog">
+      <div class="container">
+        <nav class="main-catalog">
+          <ul class="main-catalog-nav">
+            <li class="main-catalog-item"><a href="https://www.decathlon.ru/catalog/vidy-sporta">Виды спорта</a></li>
+            <li class="main-catalog-item"><a href="https://www.decathlon.ru/catalog/muzhchinam">Мужчинам</a></li>
+            <li class="main-catalog-item"><a href="https://www.decathlon.ru/catalog/zhenshchinam">Женщинам</a></li>
+            <li class="main-catalog-item"><a href="https://www.decathlon.ru/catalog/detyam">Детям</a></li>
+            <li class="main-catalog-item"><a href="https://www.decathlon.ru/catalog/aksessuary">Аксессуары</a></li>
+            <li class="main-catalog-item"><a href="https://www.decathlon.ru/catalog/sportivnoe-pitanie">Спортивное
+                питание</a></li>
+            <li class="main-catalog-item"><a href="https://www.decathlon.ru/for-legal-entities">Юридическим лицам</a>
+            </li>
+            <li class="main-catalog-item sale"><span class="sale-mark-catalog">%</span><a
+                href="https://www.decathlon.ru/catalog/sale">Распродажа</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -362,7 +377,7 @@
               вопросы</button></a>
         </div>
       </div>
-      <div class="container main-page-blog">
+      <section class="container main-page-blog">
         <h2 class="page-blog-title">DECATHLON<span class="blog-weght-span">БЛОГ</span></h2>
         <div class="grid-wrapper">
           <a class="blog-item-big blog-item-none"
@@ -402,7 +417,7 @@
         </div>
         <a href="https://blog.decathlon.ru/" target="_blank"><button class="btn btn-primary btn-read-ques">Читать все
             статьи</button></a>
-      </div>
+      </section>
       <section class="container sport-categories">
         <div class="categories-position">
           <div class="category-row">
@@ -465,7 +480,7 @@
     </div>
   </main>
 
-  <div class="promo">
+  <section class="promo">
     <div class="container">
       <div class="promo-container">
         <div class="promo-block">
@@ -488,7 +503,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <footer class="container footer-root">
     <div class="footer-main-menu">
@@ -611,12 +626,9 @@
       </div>
     </div>
   </footer>
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
   </script>
 </body>
-
 
 </html>
