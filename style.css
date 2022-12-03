@@ -1,3 +1,5 @@
+/* Медиа-запросы */
+
 @media (max-width: 1020px) {
   .btn-geo-position,
   .geo-city,
@@ -81,6 +83,10 @@
   .vh-form {
     display: none;
   }
+}
+
+body {
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
 }
 
 /* HEADER */
@@ -808,6 +814,8 @@
   font-weight: 400;
   color: #575d5e;
 }
+
+/* FOOTER */
 
 .footer-callcenter-content {
   margin-bottom: 32px;

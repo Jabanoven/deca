@@ -1,0 +1,698 @@
+$white: #ffffff;
+$lightgrey: #f0f0f0;
+$grey: #bdbdbd;
+$blue: #0082c3;
+$black: #000000;
+$red: #e20c18;
+$darkblue: #004876;
+$shadow: #dee2e6;
+$helpBtn: #105372;
+
+body {
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+}
+
+/* HEADER */
+
+.header-catalog {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0;
+  min-height: 60px;
+  background-color: #fff;
+  position: relative;
+}
+
+.main-geo-logo {
+  margin-right: 12px;
+}
+
+.icon-size {
+  margin-right: 12px;
+}
+
+.main-logo {
+  display: flex;
+  margin-right: 44px;
+  min-width: 131px;
+}
+
+.main-logo-position {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-logo-size {
+  object-fit: cover;
+  margin-left: -4px;
+}
+
+.geo-button {
+  display: flex;
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  font-size: inherit;
+  font-weight: 400;
+  padding: 0;
+}
+
+.geo-icon {
+  margin-right: 12px;
+}
+
+.geo-city {
+  width: 114px;
+  text-align: left;
+}
+
+.main-links-item {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-main-root {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-main-root a {
+  text-decoration: none;
+  color: #fff;
+  list-style-type: none;
+}
+
+.main-header-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.main-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-links-list {
+  display: flex;
+}
+
+.search-icon {
+  right: 13px;
+  position: absolute;
+  top: 12px;
+  box-shadow: none;
+  background: transparent;
+  color: #bdbdbd;
+}
+
+.btn-icon {
+  border: none;
+  background-color: transparent;
+}
+.search-form-root {
+  width: 516px;
+  height: 40px;
+  margin: 0 40px;
+}
+
+.main-header-size {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #0082c3;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  min-height: 60px;
+}
+
+.main-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-links-item {
+  display: flex;
+  margin-right: 45px;
+  position: relative;
+}
+
+.main-search-form {
+  position: relative;
+}
+
+.input-search-form {
+  position: relative;
+  font-size: 14px;
+  width: 100%;
+  padding: 12px 70px 12px 16px;
+  height: 40px;
+  align-items: flex-start;
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  caret-color: rgb(36, 35, 35);
+  background-color: rgb(255, 255, 255);
+  opacity: 95%;
+}
+
+.main-catalog {
+  max-width: 1440px;
+  background-color: #fff;
+  font-size: 12px;
+}
+
+.main-catalog-nav {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 60px;
+  cursor: default;
+}
+
+.main-catalog-item {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  min-height: inherit;
+  position: relative;
+  white-space: nowrap;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.main-catalog-item a {
+  color: #000000;
+}
+
+.main-catalog-item a:hover {
+  color: #0082c3;
+}
+
+.sale-mark-catalog {
+  position: absolute;
+  left: -14px;
+  top: 23px;
+  display: inline-flex;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  background: #e20c18;
+  border-radius: 50%;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+
+.sale {
+  position: relative;
+  display: flex;
+  margin-left: 10px;
+}
+
+/* MAIN PAGE  */
+
+.page-catalog-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 131px;
+}
+
+.page-catalog-descr p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  margin-top: 15px;
+}
+.page-catalog-title {
+  color: #004876;
+  max-width: 750px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  border-radius: 2px;
+  font-style: italic;
+}
+
+.page-catalog-descr {
+  max-width: 976px;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.btn-primary {
+  justify-content: center;
+  text-decoration: none;
+  height: 56px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  border: none;
+  padding: 0 40px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0082c3;
+}
+
+.btn-light {
+  justify-content: center;
+  text-decoration: none;
+  height: 56px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  border: none;
+  padding: 0 40px;
+  cursor: pointer;
+  background: #f0f0f0;
+  color: #0082c3;
+  font-weight: 500;
+}
+
+.catalog-btn-position {
+  margin-top: 32px;
+  margin-right: 18px;
+}
+
+.page-catalog-faq a {
+  text-decoration: none;
+}
+
+.page-catalog-faq .btn-primary {
+  display: flex;
+  justify-content: center;
+  background: #0082c3;
+}
+
+.accordion-body-header {
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #000000;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-flush .accordion-item:first-child {
+  border-top: 1px solid #dee2e6;
+}
+.accordion-flush .accordion-item:last-child {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.layout-module a {
+  text-decoration: none;
+}
+
+.layout-module .btn-read-ques {
+  display: block;
+  align-items: center;
+  margin: 40px auto;
+  height: 56px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  border: none;
+  padding: 0 40px;
+  cursor: pointer;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  color: #fff;
+  font-weight: 500;
+  background-color: #0082c3;
+}
+
+.btn-read-ques,
+.btn-primary:hover {
+  background-color: #105372;
+}
+
+.page-catalog-faq {
+  padding-top: 120px;
+  max-width: 1084px;
+  margin: auto;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 0;
+  padding: 22px 0;
+}
+
+/* MAIN PAGE BLOG */
+
+.header-catalog {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0;
+  min-height: 60px;
+  background-color: $white;
+  position: relative;
+}
+.main-geo-logo {
+  margin-right: 12px;
+}
+.icon-size {
+  margin-right: 12px;
+}
+.main-logo {
+  display: flex;
+  margin-right: 44px;
+  min-width: 131px;
+  &-position {
+    display: flex;
+    align-items: flex-end;
+  }
+  &-size {
+    object-fit: cover;
+    margin-left: -4px;
+  }
+}
+.geo-button {
+  display: flex;
+  background-color: inherit;
+  border: none;
+  color: $white;
+  font-size: inherit;
+  font-weight: 400;
+  padding: 0;
+}
+.geo-icon {
+  margin-right: 12px;
+}
+.geo-city {
+  width: 114px;
+  text-align: left;
+}
+.main-links-item {
+  text-decoration: none;
+  list-style-type: none;
+}
+.header-main-root {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  border-bottom: 1px solid $lightgrey;
+  a {
+    text-decoration: none;
+    color: $white;
+    list-style-type: none;
+  }
+}
+.main-header-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $white;
+  font-size: 12px;
+}
+.main-header-container {
+  display: flex;
+  align-items: center;
+}
+.main-links {
+  display: flex;
+  flex-direction: row;
+  &-list {
+    display: flex;
+  }
+  &-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &-item {
+    display: flex;
+    margin-right: 45px;
+    position: relative;
+  }
+}
+.search-icon {
+  right: 13px;
+  position: absolute;
+  top: 12px;
+  box-shadow: none;
+  background: transparent;
+  color: $grey;
+}
+.btn-icon {
+  border: none;
+  background-color: transparent;
+}
+.search-form-root {
+  width: 516px;
+  height: 40px;
+  margin: 0 40px;
+}
+.main-header-size {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: $blue;
+  color: $white;
+  padding: 10px 0;
+  width: 100%;
+  min-height: 60px;
+}
+.main-search-form {
+  position: relative;
+}
+.input-search-form {
+  position: relative;
+  font-size: 14px;
+  width: 100%;
+  padding: 12px 70px 12px 16px;
+  height: 40px;
+  align-items: flex-start;
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  caret-color: rgb(36, 35, 35);
+  background-color: rgb(255, 255, 255);
+  opacity: 95%;
+}
+.main-catalog {
+  max-width: 1440px;
+  background-color: $white;
+  font-size: 12px;
+  &-nav {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-height: 60px;
+    cursor: default;
+  }
+  &-item {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    min-height: inherit;
+    position: relative;
+    white-space: nowrap;
+    font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    a {
+      color: $black;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}
+.sale-mark-catalog {
+  position: absolute;
+  left: -14px;
+  top: 23px;
+  display: inline-flex;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  background: $red;
+  border-radius: 50%;
+  justify-content: center;
+  color: $white;
+  font-size: 10px;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+.sale {
+  position: relative;
+  display: flex;
+  margin-left: 10px;
+}
+.page-catalog-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 131px;
+}
+.page-catalog-descr p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  margin-top: 15px;
+}
+.page-catalog-title {
+  color: $farkblue;
+  max-width: 750px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  border-radius: 2px;
+  font-style: italic;
+}
+.page-catalog-descr {
+  max-width: 976px;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 28px;
+}
+.btn-primary {
+  justify-content: center;
+  text-decoration: none;
+  height: 56px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  border: none;
+  padding: 0 40px;
+  cursor: pointer;
+  color: $white;
+  background-color: $blue;
+}
+.btn-light {
+  justify-content: center;
+  text-decoration: none;
+  height: 56px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  border: none;
+  padding: 0 40px;
+  cursor: pointer;
+  background: $lightgrey;
+  color: $blue;
+  font-weight: 500;
+}
+.catalog-btn-position {
+  margin-top: 32px;
+  margin-right: 18px;
+}
+.page-catalog-faq a {
+  text-decoration: none;
+}
+.page-catalog-faq .btn-primary {
+  display: flex;
+  justify-content: center;
+  background: $blue;
+}
+.accordion-body-header {
+  font-family: "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: $white;
+  color: $black;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-flush .accordion-item:first-child {
+  border-top: 1px solid $shadow;
+}
+.accordion-flush .accordion-item:last-child {
+  border-bottom: 1px solid $shadow;
+}
+.layout-module a {
+  text-decoration: none;
+}
+.layout-module .btn-read-ques {
+  display: block;
+  align-items: center;
+  margin: 40px auto;
+  height: 56px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  border: none;
+  padding: 0 40px;
+  cursor: pointer;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  color: $white;
+  font-weight: 500;
+  background-color: $blue;
+}
+.btn-read-ques,
+.btn-primary:hover {
+  background-color: $helpBtn;
+}
+.page-catalog-faq {
+  padding-top: 120px;
+  max-width: 1084px;
+  margin: auto;
+}
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 0;
+  padding: 22px 0;
+}
