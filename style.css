@@ -144,11 +144,6 @@ body {
   text-align: left;
 }
 
-.main-links-item {
-  text-decoration: none;
-  list-style-type: none;
-}
-
 .header-main-root {
   display: flex;
   flex-flow: row wrap;
@@ -224,6 +219,9 @@ body {
   display: flex;
   margin-right: 45px;
   position: relative;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .main-search-form {
